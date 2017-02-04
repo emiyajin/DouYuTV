@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B94DAB2A1E4575D800E14B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94DAB291E4575D800E14B56 /* main.m */; };
 		B94DAB2D1E4575D800E14B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B94DAB2C1E4575D800E14B56 /* AppDelegate.m */; };
-		B94DAB301E4575D800E14B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94DAB2F1E4575D800E14B56 /* ViewController.m */; };
 		B94DAB331E4575D800E14B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB311E4575D800E14B56 /* Main.storyboard */; };
 		B94DAB351E4575D800E14B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB341E4575D800E14B56 /* Assets.xcassets */; };
 		B94DAB381E4575D800E14B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB361E4575D800E14B56 /* LaunchScreen.storyboard */; };
@@ -20,8 +19,6 @@
 		B94DAB291E4575D800E14B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B94DAB2B1E4575D800E14B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B94DAB2C1E4575D800E14B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B94DAB2E1E4575D800E14B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B94DAB2F1E4575D800E14B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B94DAB321E4575D800E14B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B94DAB341E4575D800E14B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B94DAB371E4575D800E14B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +55,10 @@
 		B94DAB271E4575D800E14B56 /* DouYuTV */ = {
 			isa = PBXGroup;
 			children = (
+				B94DAB461E45839200E14B56 /* Other(其他) */,
+				B94DAB3F1E45833400E14B56 /* Classes */,
 				B94DAB2B1E4575D800E14B56 /* AppDelegate.h */,
 				B94DAB2C1E4575D800E14B56 /* AppDelegate.m */,
-				B94DAB2E1E4575D800E14B56 /* ViewController.h */,
-				B94DAB2F1E4575D800E14B56 /* ViewController.m */,
 				B94DAB311E4575D800E14B56 /* Main.storyboard */,
 				B94DAB341E4575D800E14B56 /* Assets.xcassets */,
 				B94DAB361E4575D800E14B56 /* LaunchScreen.storyboard */,
@@ -77,6 +74,68 @@
 				B94DAB291E4575D800E14B56 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B94DAB3F1E45833400E14B56 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B94DAB431E45833400E14B56 /* Main(主要) */,
+				B94DAB411E45833400E14B56 /* Home(首页) */,
+				B94DAB421E45833400E14B56 /* Live(直播) */,
+				B94DAB401E45833400E14B56 /* Follow(关注) */,
+				B94DAB441E45833400E14B56 /* Profile(我) */,
+				B94DAB451E45833400E14B56 /* Tool(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B94DAB401E45833400E14B56 /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Follow(关注)";
+			sourceTree = "<group>";
+		};
+		B94DAB411E45833400E14B56 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		B94DAB421E45833400E14B56 /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		B94DAB431E45833400E14B56 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		B94DAB441E45833400E14B56 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		B94DAB451E45833400E14B56 /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		B94DAB461E45839200E14B56 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94DAB301E4575D800E14B56 /* ViewController.m in Sources */,
 				B94DAB2D1E4575D800E14B56 /* AppDelegate.m in Sources */,
 				B94DAB2A1E4575D800E14B56 /* main.m in Sources */,
 			);
