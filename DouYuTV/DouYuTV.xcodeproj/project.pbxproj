@@ -12,6 +12,15 @@
 		B94DAB331E4575D800E14B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB311E4575D800E14B56 /* Main.storyboard */; };
 		B94DAB351E4575D800E14B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB341E4575D800E14B56 /* Assets.xcassets */; };
 		B94DAB381E4575D800E14B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB361E4575D800E14B56 /* LaunchScreen.storyboard */; };
+		B94DAB4C1E4590A600E14B56 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB4A1E4590A600E14B56 /* Home.storyboard */; };
+		B94DAB4E1E4590C700E14B56 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB4D1E4590C700E14B56 /* Live.storyboard */; };
+		B94DAB511E4590DB00E14B56 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB4F1E4590DB00E14B56 /* Follow.storyboard */; };
+		B94DAB531E4590EF00E14B56 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB521E4590EF00E14B56 /* Profile.storyboard */; };
+		B9B94CF71E46C65D00D05454 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94CF41E46C65D00D05454 /* MainViewController.m */; };
+		B9B94CFD1E46C6EF00D05454 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94CFC1E46C6EF00D05454 /* HomeViewController.m */; };
+		B9B94D011E46C7B500D05454 /* UIBarButtonItem+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94D001E46C7B500D05454 /* UIBarButtonItem+BSExtension.m */; };
+		B9B94D051E46C97900D05454 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94D041E46C97900D05454 /* UIView+Frame.m */; };
+		B9B94D081E46EF1B00D05454 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94D071E46EF1B00D05454 /* Const.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +29,24 @@
 		B94DAB2B1E4575D800E14B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B94DAB2C1E4575D800E14B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B94DAB321E4575D800E14B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B94DAB341E4575D800E14B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94DAB341E4575D800E14B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		B94DAB371E4575D800E14B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B94DAB391E4575D800E14B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94DAB4B1E4590A600E14B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		B94DAB4D1E4590C700E14B56 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = "../Main(主要)/Live.storyboard"; sourceTree = "<group>"; };
+		B94DAB501E4590DB00E14B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		B94DAB521E4590EF00E14B56 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = "../Main(主要)/Profile.storyboard"; sourceTree = "<group>"; };
+		B9B94CF31E46C65D00D05454 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B9B94CF41E46C65D00D05454 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B9B94CFB1E46C6EF00D05454 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B9B94CFC1E46C6EF00D05454 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B9B94CFF1E46C7B500D05454 /* UIBarButtonItem+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BSExtension.h"; sourceTree = "<group>"; };
+		B9B94D001E46C7B500D05454 /* UIBarButtonItem+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BSExtension.m"; sourceTree = "<group>"; };
+		B9B94D021E46C8E300D05454 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B9B94D031E46C97900D05454 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B9B94D041E46C97900D05454 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		B9B94D061E46EF1B00D05454 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		B9B94D071E46EF1B00D05454 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +83,7 @@
 				B94DAB3F1E45833400E14B56 /* Classes */,
 				B94DAB2B1E4575D800E14B56 /* AppDelegate.h */,
 				B94DAB2C1E4575D800E14B56 /* AppDelegate.m */,
-				B94DAB311E4575D800E14B56 /* Main.storyboard */,
-				B94DAB341E4575D800E14B56 /* Assets.xcassets */,
-				B94DAB361E4575D800E14B56 /* LaunchScreen.storyboard */,
+				B9B94D021E46C8E300D05454 /* PrefixHeader.pch */,
 				B94DAB391E4575D800E14B56 /* Info.plist */,
 				B94DAB281E4575D800E14B56 /* Supporting Files */,
 			);
@@ -92,6 +114,7 @@
 		B94DAB401E45833400E14B56 /* Follow(关注) */ = {
 			isa = PBXGroup;
 			children = (
+				B94DAB4F1E4590DB00E14B56 /* Follow.storyboard */,
 			);
 			path = "Follow(关注)";
 			sourceTree = "<group>";
@@ -99,6 +122,9 @@
 		B94DAB411E45833400E14B56 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				B9B94CF81E46C69E00D05454 /* Controller */,
+				B9B94CF91E46C69E00D05454 /* Model */,
+				B9B94CFA1E46C69E00D05454 /* View */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -106,6 +132,7 @@
 		B94DAB421E45833400E14B56 /* Live(直播) */ = {
 			isa = PBXGroup;
 			children = (
+				B94DAB4D1E4590C700E14B56 /* Live.storyboard */,
 			);
 			path = "Live(直播)";
 			sourceTree = "<group>";
@@ -113,6 +140,9 @@
 		B94DAB431E45833400E14B56 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
+				B9B94CF21E46C65D00D05454 /* Controller */,
+				B9B94CF51E46C65D00D05454 /* Model */,
+				B9B94CF61E46C65D00D05454 /* View */,
 			);
 			path = "Main(主要)";
 			sourceTree = "<group>";
@@ -120,6 +150,7 @@
 		B94DAB441E45833400E14B56 /* Profile(我) */ = {
 			isa = PBXGroup;
 			children = (
+				B94DAB521E4590EF00E14B56 /* Profile.storyboard */,
 			);
 			path = "Profile(我)";
 			sourceTree = "<group>";
@@ -127,6 +158,8 @@
 		B94DAB451E45833400E14B56 /* Tool(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				B9B94D061E46EF1B00D05454 /* Const.h */,
+				B9B94D071E46EF1B00D05454 /* Const.m */,
 			);
 			path = "Tool(工具)";
 			sourceTree = "<group>";
@@ -134,8 +167,70 @@
 		B94DAB461E45839200E14B56 /* Other(其他) */ = {
 			isa = PBXGroup;
 			children = (
+				B94DAB341E4575D800E14B56 /* Assets.xcassets */,
+				B94DAB361E4575D800E14B56 /* LaunchScreen.storyboard */,
+				B9B94CFE1E46C78E00D05454 /* Category */,
 			);
 			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		B9B94CF21E46C65D00D05454 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B94DAB311E4575D800E14B56 /* Main.storyboard */,
+				B9B94CF31E46C65D00D05454 /* MainViewController.h */,
+				B9B94CF41E46C65D00D05454 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9B94CF51E46C65D00D05454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9B94CF61E46C65D00D05454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9B94CF81E46C69E00D05454 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B94DAB4A1E4590A600E14B56 /* Home.storyboard */,
+				B9B94CFB1E46C6EF00D05454 /* HomeViewController.h */,
+				B9B94CFC1E46C6EF00D05454 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9B94CF91E46C69E00D05454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9B94CFA1E46C69E00D05454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9B94CFE1E46C78E00D05454 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B9B94D031E46C97900D05454 /* UIView+Frame.h */,
+				B9B94D041E46C97900D05454 /* UIView+Frame.m */,
+				B9B94CFF1E46C7B500D05454 /* UIBarButtonItem+BSExtension.h */,
+				B9B94D001E46C7B500D05454 /* UIBarButtonItem+BSExtension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +294,10 @@
 				B94DAB381E4575D800E14B56 /* LaunchScreen.storyboard in Resources */,
 				B94DAB351E4575D800E14B56 /* Assets.xcassets in Resources */,
 				B94DAB331E4575D800E14B56 /* Main.storyboard in Resources */,
+				B94DAB4E1E4590C700E14B56 /* Live.storyboard in Resources */,
+				B94DAB4C1E4590A600E14B56 /* Home.storyboard in Resources */,
+				B94DAB531E4590EF00E14B56 /* Profile.storyboard in Resources */,
+				B94DAB511E4590DB00E14B56 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B94D051E46C97900D05454 /* UIView+Frame.m in Sources */,
 				B94DAB2D1E4575D800E14B56 /* AppDelegate.m in Sources */,
+				B9B94D011E46C7B500D05454 /* UIBarButtonItem+BSExtension.m in Sources */,
 				B94DAB2A1E4575D800E14B56 /* main.m in Sources */,
+				B9B94D081E46EF1B00D05454 /* Const.m in Sources */,
+				B9B94CF71E46C65D00D05454 /* MainViewController.m in Sources */,
+				B9B94CFD1E46C6EF00D05454 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +327,7 @@
 				B94DAB321E4575D800E14B56 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		B94DAB361E4575D800E14B56 /* LaunchScreen.storyboard */ = {
@@ -231,6 +336,25 @@
 				B94DAB371E4575D800E14B56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B94DAB4A1E4590A600E14B56 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94DAB4B1E4590A600E14B56 /* Base */,
+			);
+			name = Home.storyboard;
+			path = "../../Main(主要)";
+			sourceTree = "<group>";
+		};
+		B94DAB4F1E4590DB00E14B56 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94DAB501E4590DB00E14B56 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = "../Main(主要)";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = DouYuTV/PrefixHeader.pch;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -342,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = DouYuTV/PrefixHeader.pch;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -369,6 +495,7 @@
 				B94DAB3E1E4575D800E14B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

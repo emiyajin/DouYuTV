@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  DouYuTV
+//
+//  Created by emiyajin on 17/2/5.
+//  Copyright © 2017年 emiyajin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//分析:如果处于调试阶段，那么log就是为nslog输出测试，如果是上线阶段，那么log就是空的
+#ifdef DEBUG
+#define XMGLog(...) NSLog(__VA_ARGS__)
+#else
+#define XMGLog(...)
+#endif
+//函数输出设置
+#define XMGLogFunction XMGLog(@"%s",__func__);
+//颜色设置
+#define XMGRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define XMGRandomColor XMGRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+//把解析到的内容写成plist数据放到桌面 /Users/emiyajinADC
+#define XMGAFNWriteToPlist(filename) [response writeToFile:[NSString stringWithFormat:@"/Users/emiyajinADC/Desktop/%@.plist",filename] atomically:YES];
+/*******************屏幕适配和版本适配*************************/
+#define IPHONE_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define IPHONE_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#define IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? YES:NO)
+#define IOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? YES:NO)
+#define IOS9 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? YES:NO)
+#define Iphone6P (IPHONE_HEIGHT == 736)
+#define Iphone6 (IPHONE_HEIGHT == 667)
+#define Iphone5 (IPHONE_HEIGHT == 568)
+#define Iphone4 (IPHONE_HEIGHT == 480)
+/*******************屏幕适配和版本适配*************************/
+#import "UIView+Frame.h"
+#import "Const.h"
+#endif /* PrefixHeader_pch */
