@@ -8,7 +8,11 @@
 //首页推荐里面"颜值"栏的cell
 
 #import <UIKit/UIKit.h>
+#import "CollectionBaseCell.h"
 
-@interface CollectionPrettyCell : UICollectionViewCell
-
+@interface CollectionPrettyCell : CollectionBaseCell
+/**
+ 所在地点
+ */
+@property (weak, nonatomic) IBOutlet UIButton *localBtn;
 @end

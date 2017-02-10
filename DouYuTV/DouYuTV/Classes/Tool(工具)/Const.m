@@ -14,5 +14,11 @@ CGFloat const titleViewH = 40;
 CGFloat const recommandCellItemMargin = 10;
 /** 首页推荐模块普通cell的标识 */
 NSString *const recommandNormalCell = @"recommandNormalCell";
+/** 首页推荐模块颜值cell的标识 */
+NSString *const recommandPrettyCell = @"recommandPrettyCell";
 /** 首页推荐模块普通cell头部view的标识 */
 NSString *const recommandCellHeader = @"recommandCellHeader";
+/** 首页推荐轮播器里cell的标识 */
+NSString *const CycleCell = @"CycleCell";
+/** 首页推荐游戏推荐里cell的标识 */
+NSString *const recommandGameCell = @"recommandGameCell";

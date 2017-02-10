@@ -15,4 +15,10 @@
     // Initialization code
 }
 
+-(void)setAnchor:(Anchor *)anchor
+{
+    [super setAnchor:anchor];
+
+    [self.localBtn setTitle:anchor.anchor_city forState:UIControlStateNormal];
+}
 @end

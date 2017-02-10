@@ -147,28 +147,18 @@ static CGFloat SelectedColorB = 0;
 #pragma mark -- 手势点击
 -(void)tapClick:(UITapGestureRecognizer *)tap
 {
-    //获取点击的view
-    UIView *view = tap.view;
-    //获取它所在的index
-    NSInteger index = (view.tag - 10);
-    //滚动到指定下标
-    [self scrollToIndex:index];
-
-    //通知代理
-    if ([self.delegate respondsToSelector:@selector(pageTitleView:selectedIndex:)]) {
-        [self.delegate pageTitleView:self selectedIndex:index];
-    }
-}
-//滚动到指定下标
--(void)scrollToIndex:(NSInteger)index
-{
     //获得新旧label
+    UILabel *currentLabel = (UILabel *)tap.view;
+    if ((currentLabel.tag - 10) == self.currentLabelIndex) {//重复点击判定，防止被点击显示灰色
+        return;
+    }
     UILabel *oldLabel = self.titleLabels[self.currentLabelIndex];
-    UILabel *currentLabel = self.titleLabels[index];
 
     //切换文字的颜色
     currentLabel.textColor = XMGRGBColor(SelectedColorR, SelectedColorG, SelectedColorB);
     oldLabel.textColor = XMGRGBColor(NormalColorR, NormalColorG, NormalColorB);
+
+    self.currentLabelIndex = currentLabel.tag - 10;
 
     //滚动条x位置发生改变
     CGFloat scrollLinePositionX = (currentLabel.tag - 10) * self.scrollLine.xmg_width;
@@ -176,10 +166,12 @@ static CGFloat SelectedColorB = 0;
         self.scrollLine.xmg_x = scrollLinePositionX;
     }];
 
-    //记录index
-    self.currentLabelIndex = index;
+    //通知代理
+    if ([self.delegate respondsToSelector:@selector(pageTitleView:selectedIndex:)]) {
+        [self.delegate pageTitleView:self selectedIndex:self.currentLabelIndex];
+    }
 }
-
+//设置页面进度 来源index 和目标index
 -(void)setupTitleWithProgress:(CGFloat)progress sourceIndex:(NSInteger)sourceIndex targetIndex:(NSInteger)targetIndex
 {
     //取出sourceLabel/targetLabel

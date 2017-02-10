@@ -9,6 +9,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class AnchorGroup;
 @interface CollectionHeaderView : UICollectionReusableView
-
+/**
+ *  主播组
+ */
+@property (strong,nonatomic) AnchorGroup *group;
 @end

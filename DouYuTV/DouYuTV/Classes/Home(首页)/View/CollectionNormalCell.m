@@ -8,6 +8,7 @@
 
 #import "CollectionNormalCell.h"
 
+
 @implementation CollectionNormalCell
 
 - (void)awakeFromNib {
@@ -15,4 +16,10 @@
 
 }
 
+-(void)setAnchor:(Anchor *)anchor
+{
+    [super setAnchor:anchor];
+
+    self.nickNameLabel.text = anchor.nickname;
+}
 @end

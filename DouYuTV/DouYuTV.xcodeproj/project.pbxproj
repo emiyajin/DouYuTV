@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B92E317B1E4804D200848CD5 /* PageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B92E317A1E4804D200848CD5 /* PageContentView.m */; };
+		B92F0AD11E4BFAB3001F1E5B /* NSDate+NSDate_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B92F0AD01E4BFAB3001F1E5B /* NSDate+NSDate_Extension.m */; };
+		B92F0AD41E4C01ED001F1E5B /* AnchorGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B92F0AD31E4C01ED001F1E5B /* AnchorGroup.m */; };
+		B92F0AD71E4C03B9001F1E5B /* Anchor.m in Sources */ = {isa = PBXBuildFile; fileRef = B92F0AD61E4C03B9001F1E5B /* Anchor.m */; };
+		B949B90883783258A4CD6FE7 /* libPods-DouYuTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8D91C5257466520B414368 /* libPods-DouYuTV.a */; };
 		B94DAB2A1E4575D800E14B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94DAB291E4575D800E14B56 /* main.m */; };
 		B94DAB2D1E4575D800E14B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B94DAB2C1E4575D800E14B56 /* AppDelegate.m */; };
 		B94DAB331E4575D800E14B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB311E4575D800E14B56 /* Main.storyboard */; };
@@ -17,6 +21,17 @@
 		B94DAB4E1E4590C700E14B56 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB4D1E4590C700E14B56 /* Live.storyboard */; };
 		B94DAB511E4590DB00E14B56 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB4F1E4590DB00E14B56 /* Follow.storyboard */; };
 		B94DAB531E4590EF00E14B56 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94DAB521E4590EF00E14B56 /* Profile.storyboard */; };
+		B96D335E1E4D47EB00685538 /* RecommandCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D335D1E4D47EB00685538 /* RecommandCycleView.m */; };
+		B96D33601E4D47FC00685538 /* RecommandCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96D335F1E4D47FC00685538 /* RecommandCycleView.xib */; };
+		B96D33631E4D636300685538 /* CycleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D33621E4D636300685538 /* CycleModel.m */; };
+		B96D33671E4D683800685538 /* CollectionCycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D33651E4D683800685538 /* CollectionCycleCell.m */; };
+		B96D33681E4D683800685538 /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96D33661E4D683800685538 /* CollectionCycleCell.xib */; };
+		B96D336B1E4D926200685538 /* RecommandGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D336A1E4D926200685538 /* RecommandGameView.m */; };
+		B96D336D1E4D927A00685538 /* RecommandGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96D336C1E4D927A00685538 /* RecommandGameView.xib */; };
+		B96D33711E4D9FD600685538 /* CollectionGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D336F1E4D9FD600685538 /* CollectionGameCell.m */; };
+		B96D33721E4D9FD600685538 /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96D33701E4D9FD600685538 /* CollectionGameCell.xib */; };
+		B9700DA71E4AFA8200B1DBC4 /* RecommandResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B9700DA61E4AFA8200B1DBC4 /* RecommandResponse.m */; };
+		B9956ACF1E4C63670050ED7E /* CollectionBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9956ACE1E4C63670050ED7E /* CollectionBaseCell.m */; };
 		B9B94CF71E46C65D00D05454 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94CF41E46C65D00D05454 /* MainViewController.m */; };
 		B9B94CFD1E46C6EF00D05454 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94CFC1E46C6EF00D05454 /* HomeViewController.m */; };
 		B9B94D011E46C7B500D05454 /* UIBarButtonItem+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B94D001E46C7B500D05454 /* UIBarButtonItem+BSExtension.m */; };
@@ -33,8 +48,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17490D03370A1DB568565E3F /* Pods-DouYuTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.debug.xcconfig"; sourceTree = "<group>"; };
+		9122DFA7078017D642C6131A /* Pods-DouYuTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.release.xcconfig"; sourceTree = "<group>"; };
 		B92E31791E4804D200848CD5 /* PageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentView.h; sourceTree = "<group>"; };
 		B92E317A1E4804D200848CD5 /* PageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentView.m; sourceTree = "<group>"; };
+		B92F0ACF1E4BFAB3001F1E5B /* NSDate+NSDate_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSDate_Extension.h"; sourceTree = "<group>"; };
+		B92F0AD01E4BFAB3001F1E5B /* NSDate+NSDate_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSDate_Extension.m"; sourceTree = "<group>"; };
+		B92F0AD21E4C01ED001F1E5B /* AnchorGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorGroup.h; sourceTree = "<group>"; };
+		B92F0AD31E4C01ED001F1E5B /* AnchorGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorGroup.m; sourceTree = "<group>"; };
+		B92F0AD51E4C03B9001F1E5B /* Anchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anchor.h; sourceTree = "<group>"; };
+		B92F0AD61E4C03B9001F1E5B /* Anchor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anchor.m; sourceTree = "<group>"; };
 		B94DAB251E4575D800E14B56 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94DAB291E4575D800E14B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B94DAB2B1E4575D800E14B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +70,24 @@
 		B94DAB4D1E4590C700E14B56 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = "../Main(主要)/Live.storyboard"; sourceTree = "<group>"; };
 		B94DAB501E4590DB00E14B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		B94DAB521E4590EF00E14B56 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = "../Main(主要)/Profile.storyboard"; sourceTree = "<group>"; };
+		B96D335C1E4D47EB00685538 /* RecommandCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandCycleView.h; sourceTree = "<group>"; };
+		B96D335D1E4D47EB00685538 /* RecommandCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandCycleView.m; sourceTree = "<group>"; };
+		B96D335F1E4D47FC00685538 /* RecommandCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommandCycleView.xib; sourceTree = "<group>"; };
+		B96D33611E4D636300685538 /* CycleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleModel.h; sourceTree = "<group>"; };
+		B96D33621E4D636300685538 /* CycleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleModel.m; sourceTree = "<group>"; };
+		B96D33641E4D683800685538 /* CollectionCycleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCycleCell.h; sourceTree = "<group>"; };
+		B96D33651E4D683800685538 /* CollectionCycleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCycleCell.m; sourceTree = "<group>"; };
+		B96D33661E4D683800685538 /* CollectionCycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
+		B96D33691E4D926200685538 /* RecommandGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandGameView.h; sourceTree = "<group>"; };
+		B96D336A1E4D926200685538 /* RecommandGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandGameView.m; sourceTree = "<group>"; };
+		B96D336C1E4D927A00685538 /* RecommandGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommandGameView.xib; sourceTree = "<group>"; };
+		B96D336E1E4D9FD600685538 /* CollectionGameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionGameCell.h; sourceTree = "<group>"; };
+		B96D336F1E4D9FD600685538 /* CollectionGameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionGameCell.m; sourceTree = "<group>"; };
+		B96D33701E4D9FD600685538 /* CollectionGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
+		B9700DA51E4AFA8200B1DBC4 /* RecommandResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandResponse.h; sourceTree = "<group>"; };
+		B9700DA61E4AFA8200B1DBC4 /* RecommandResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandResponse.m; sourceTree = "<group>"; };
+		B9956ACD1E4C63670050ED7E /* CollectionBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionBaseCell.h; sourceTree = "<group>"; };
+		B9956ACE1E4C63670050ED7E /* CollectionBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionBaseCell.m; sourceTree = "<group>"; };
 		B9B94CF31E46C65D00D05454 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B9B94CF41E46C65D00D05454 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B9B94CFB1E46C6EF00D05454 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -71,6 +112,7 @@
 		B9F3580B1E49C61A00596E65 /* CollectionPrettyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionPrettyCell.h; sourceTree = "<group>"; };
 		B9F3580C1E49C61A00596E65 /* CollectionPrettyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionPrettyCell.m; sourceTree = "<group>"; };
 		B9F3580D1E49C61A00596E65 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		BC8D91C5257466520B414368 /* libPods-DouYuTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouYuTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,17 +120,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B949B90883783258A4CD6FE7 /* libPods-DouYuTV.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23BEC8492FB824ACDF2D00A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17490D03370A1DB568565E3F /* Pods-DouYuTV.debug.xcconfig */,
+				9122DFA7078017D642C6131A /* Pods-DouYuTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B94DAB1C1E4575D800E14B56 = {
 			isa = PBXGroup;
 			children = (
 				B94DAB271E4575D800E14B56 /* DouYuTV */,
 				B94DAB261E4575D800E14B56 /* Products */,
+				23BEC8492FB824ACDF2D00A6 /* Pods */,
+				EC9159E7DCC26C3F1F15AC0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				B9B94CF81E46C69E00D05454 /* Controller */,
+				B9700DA41E4AF90600B1DBC4 /* ViewModel */,
 				B9B94CF91E46C69E00D05454 /* Model */,
 				B9B94CFA1E46C69E00D05454 /* View */,
 			);
@@ -198,6 +253,15 @@
 			path = "Other(其他)";
 			sourceTree = "<group>";
 		};
+		B9700DA41E4AF90600B1DBC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B9700DA51E4AFA8200B1DBC4 /* RecommandResponse.h */,
+				B9700DA61E4AFA8200B1DBC4 /* RecommandResponse.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B9B94CF21E46C65D00D05454 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +305,12 @@
 		B9B94CF91E46C69E00D05454 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B92F0AD21E4C01ED001F1E5B /* AnchorGroup.h */,
+				B92F0AD31E4C01ED001F1E5B /* AnchorGroup.m */,
+				B92F0AD51E4C03B9001F1E5B /* Anchor.h */,
+				B92F0AD61E4C03B9001F1E5B /* Anchor.m */,
+				B96D33611E4D636300685538 /* CycleModel.h */,
+				B96D33621E4D636300685538 /* CycleModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,12 +321,26 @@
 				B9F357FC1E49B76500596E65 /* CollectionHeaderView.h */,
 				B9F357FD1E49B76500596E65 /* CollectionHeaderView.m */,
 				B9F357FE1E49B76500596E65 /* CollectionHeaderView.xib */,
+				B9956ACD1E4C63670050ED7E /* CollectionBaseCell.h */,
+				B9956ACE1E4C63670050ED7E /* CollectionBaseCell.m */,
 				B9F358011E49BEE500596E65 /* CollectionNormalCell.h */,
 				B9F358021E49BEE500596E65 /* CollectionNormalCell.m */,
 				B9F358031E49BEE500596E65 /* CollectionNormalCell.xib */,
 				B9F3580B1E49C61A00596E65 /* CollectionPrettyCell.h */,
 				B9F3580C1E49C61A00596E65 /* CollectionPrettyCell.m */,
 				B9F3580D1E49C61A00596E65 /* CollectionPrettyCell.xib */,
+				B96D335C1E4D47EB00685538 /* RecommandCycleView.h */,
+				B96D335D1E4D47EB00685538 /* RecommandCycleView.m */,
+				B96D335F1E4D47FC00685538 /* RecommandCycleView.xib */,
+				B96D33641E4D683800685538 /* CollectionCycleCell.h */,
+				B96D33651E4D683800685538 /* CollectionCycleCell.m */,
+				B96D33661E4D683800685538 /* CollectionCycleCell.xib */,
+				B96D33691E4D926200685538 /* RecommandGameView.h */,
+				B96D336A1E4D926200685538 /* RecommandGameView.m */,
+				B96D336C1E4D927A00685538 /* RecommandGameView.xib */,
+				B96D336E1E4D9FD600685538 /* CollectionGameCell.h */,
+				B96D336F1E4D9FD600685538 /* CollectionGameCell.m */,
+				B96D33701E4D9FD600685538 /* CollectionGameCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,8 +352,18 @@
 				B9B94D041E46C97900D05454 /* UIView+Frame.m */,
 				B9B94CFF1E46C7B500D05454 /* UIBarButtonItem+BSExtension.h */,
 				B9B94D001E46C7B500D05454 /* UIBarButtonItem+BSExtension.m */,
+				B92F0ACF1E4BFAB3001F1E5B /* NSDate+NSDate_Extension.h */,
+				B92F0AD01E4BFAB3001F1E5B /* NSDate+NSDate_Extension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		EC9159E7DCC26C3F1F15AC0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D91C5257466520B414368 /* libPods-DouYuTV.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B94DAB3C1E4575D800E14B56 /* Build configuration list for PBXNativeTarget "DouYuTV" */;
 			buildPhases = (
+				84C2B970E4CCD40FD9102EDA /* [CP] Check Pods Manifest.lock */,
 				B94DAB211E4575D800E14B56 /* Sources */,
 				B94DAB221E4575D800E14B56 /* Frameworks */,
 				B94DAB231E4575D800E14B56 /* Resources */,
+				7B068E6266D0DF41DBF80438 /* [CP] Embed Pods Frameworks */,
+				575DBB690D8412D1EF2DFAE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,33 +433,95 @@
 				B94DAB351E4575D800E14B56 /* Assets.xcassets in Resources */,
 				B94DAB331E4575D800E14B56 /* Main.storyboard in Resources */,
 				B94DAB4E1E4590C700E14B56 /* Live.storyboard in Resources */,
+				B96D33601E4D47FC00685538 /* RecommandCycleView.xib in Resources */,
+				B96D33721E4D9FD600685538 /* CollectionGameCell.xib in Resources */,
 				B94DAB4C1E4590A600E14B56 /* Home.storyboard in Resources */,
+				B96D33681E4D683800685538 /* CollectionCycleCell.xib in Resources */,
 				B9F3580F1E49C61A00596E65 /* CollectionPrettyCell.xib in Resources */,
 				B94DAB531E4590EF00E14B56 /* Profile.storyboard in Resources */,
 				B94DAB511E4590DB00E14B56 /* Follow.storyboard in Resources */,
+				B96D336D1E4D927A00685538 /* RecommandGameView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		575DBB690D8412D1EF2DFAE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B068E6266D0DF41DBF80438 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C2B970E4CCD40FD9102EDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B94DAB211E4575D800E14B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96D33631E4D636300685538 /* CycleModel.m in Sources */,
+				B92F0AD41E4C01ED001F1E5B /* AnchorGroup.m in Sources */,
 				B9B94D0B1E46F64900D05454 /* PageTitlesView.m in Sources */,
 				B92E317B1E4804D200848CD5 /* PageContentView.m in Sources */,
 				B9F358041E49BEE500596E65 /* CollectionNormalCell.m in Sources */,
 				B9B94D051E46C97900D05454 /* UIView+Frame.m in Sources */,
 				B9F3580E1E49C61A00596E65 /* CollectionPrettyCell.m in Sources */,
+				B92F0AD11E4BFAB3001F1E5B /* NSDate+NSDate_Extension.m in Sources */,
+				B96D33711E4D9FD600685538 /* CollectionGameCell.m in Sources */,
+				B9700DA71E4AFA8200B1DBC4 /* RecommandResponse.m in Sources */,
+				B96D33671E4D683800685538 /* CollectionCycleCell.m in Sources */,
 				B94DAB2D1E4575D800E14B56 /* AppDelegate.m in Sources */,
+				B92F0AD71E4C03B9001F1E5B /* Anchor.m in Sources */,
 				B9B94D011E46C7B500D05454 /* UIBarButtonItem+BSExtension.m in Sources */,
 				B9F357F01E49529700596E65 /* RecommandViewController.m in Sources */,
 				B94DAB2A1E4575D800E14B56 /* main.m in Sources */,
 				B9B94D081E46EF1B00D05454 /* Const.m in Sources */,
+				B9956ACF1E4C63670050ED7E /* CollectionBaseCell.m in Sources */,
 				B9B94CF71E46C65D00D05454 /* MainViewController.m in Sources */,
 				B9B94CFD1E46C6EF00D05454 /* HomeViewController.m in Sources */,
+				B96D335E1E4D47EB00685538 /* RecommandCycleView.m in Sources */,
 				B9F357FF1E49B76500596E65 /* CollectionHeaderView.m in Sources */,
+				B96D336B1E4D926200685538 /* RecommandGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +657,7 @@
 		};
 		B94DAB3D1E4575D800E14B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17490D03370A1DB568565E3F /* Pods-DouYuTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -512,6 +672,7 @@
 		};
 		B94DAB3E1E4575D800E14B56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9122DFA7078017D642C6131A /* Pods-DouYuTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -19,5 +19,11 @@ UIKIT_EXTERN CGFloat const titleViewH;
 UIKIT_EXTERN CGFloat const recommandCellItemMargin;
 /** 首页推荐模块普通cell的标识 */
 UIKIT_EXTERN NSString *const recommandNormalCell;
+/** 首页推荐模块颜值cell的标识 */
+UIKIT_EXTERN NSString *const recommandPrettyCell;
 /** 首页推荐模块普通cell头部view的标识 */
 UIKIT_EXTERN NSString *const recommandCellHeader;
+/** 首页推荐轮播器里cell的标识 */
+UIKIT_EXTERN NSString *const CycleCell;
+/** 首页推荐游戏推荐里cell的标识 */
+UIKIT_EXTERN NSString *const recommandGameCell;

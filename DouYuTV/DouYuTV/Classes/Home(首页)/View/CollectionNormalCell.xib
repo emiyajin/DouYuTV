@@ -31,7 +31,7 @@
                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_cell_default_phone" translatesAutoresizingMaskIntoConstraints="NO" id="ehD-nT-0P3">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="ehD-nT-0P3">
                         <rect key="frame" x="0.0" y="0.0" width="260" height="176"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -70,12 +70,18 @@
                 <constraint firstItem="Xlg-l1-Wet" firstAttribute="bottom" secondItem="ehD-nT-0P3" secondAttribute="bottom" constant="-5" id="wJM-CQ-tmA"/>
             </constraints>
             <size key="customSize" width="260" height="205"/>
-            <point key="canvasLocation" x="34" y="11.5"/>
+            <connections>
+                <outlet property="iconView" destination="ehD-nT-0P3" id="ALf-ub-ulc"/>
+                <outlet property="nickNameLabel" destination="Xlg-l1-Wet" id="xyD-1T-Wwl"/>
+                <outlet property="onLineBtn" destination="7u2-bv-Emv" id="FC0-fK-Be2"/>
+                <outlet property="roomNameLabel" destination="XdU-BE-82e" id="iK7-V9-TVb"/>
+            </connections>
+            <point key="canvasLocation" x="65" y="-117"/>
         </collectionViewCell>
     </objects>
     <resources>
         <image name="Image_online" width="16" height="16"/>
+        <image name="Img_default" width="172" height="103"/>
         <image name="home_live_cate_normal" width="14" height="14"/>
-        <image name="live_cell_default_phone" width="103" height="103"/>
     </resources>
 </document>
